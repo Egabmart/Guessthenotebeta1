@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E62E0392A04235700D9A93B /* Mi-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E02D2A04235700D9A93B /* Mi-4.wav */; };
+		5E62E03A2A04235700D9A93B /* Fa-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E02E2A04235700D9A93B /* Fa-4.wav */; };
+		5E62E03B2A04235700D9A93B /* Re-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E02F2A04235700D9A93B /* Re-4.wav */; };
+		5E62E03C2A04235700D9A93B /* Sol-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0302A04235700D9A93B /* Sol-4.wav */; };
+		5E62E03D2A04235700D9A93B /* Si-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0312A04235700D9A93B /* Si-4.wav */; };
+		5E62E03E2A04235700D9A93B /* La-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0322A04235700D9A93B /* La-4.wav */; };
+		5E62E03F2A04235700D9A93B /* Fa#-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0332A04235700D9A93B /* Fa#-4.wav */; };
+		5E62E0402A04235700D9A93B /* Do-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0342A04235700D9A93B /* Do-4.wav */; };
+		5E62E0412A04235700D9A93B /* Sol#-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0352A04235700D9A93B /* Sol#-4.wav */; };
+		5E62E0422A04235700D9A93B /* La#-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0362A04235700D9A93B /* La#-4.wav */; };
+		5E62E0432A04235700D9A93B /* Re#-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0372A04235700D9A93B /* Re#-4.wav */; };
+		5E62E0442A04235700D9A93B /* Do#-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E62E0382A04235700D9A93B /* Do#-4.wav */; };
+		5E89AE7529FC9A3B00F829C2 /* Guess_the_note_beta_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AE7429FC9A3B00F829C2 /* Guess_the_note_beta_1App.swift */; };
+		5E89AE7729FC9A3B00F829C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AE7629FC9A3B00F829C2 /* ContentView.swift */; };
+		5E89AE7929FC9A3C00F829C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE7829FC9A3C00F829C2 /* Assets.xcassets */; };
+		5E89AE7D29FC9A3C00F829C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE7C29FC9A3C00F829C2 /* Preview Assets.xcassets */; };
+		5E89AE8429FC9E2C00F829C2 /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AE8329FC9E2C00F829C2 /* LevelOne.swift */; };
+		5E89AE8629FC9E5C00F829C2 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AE8529FC9E5C00F829C2 /* LevelTwo.swift */; };
+		5E89AE8829FC9EA500F829C2 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89AE8729FC9EA500F829C2 /* AudioPlayer.swift */; };
+		5E89AE9329FC9EEC00F829C2 /* Re.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8A29FC9EEC00F829C2 /* Re.wav */; };
+		5E89AE9429FC9EEC00F829C2 /* Fa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8B29FC9EEC00F829C2 /* Fa.wav */; };
+		5E89AE9529FC9EEC00F829C2 /* Do.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8C29FC9EEC00F829C2 /* Do.wav */; };
+		5E89AE9629FC9EEC00F829C2 /* La.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8D29FC9EEC00F829C2 /* La.wav */; };
+		5E89AE9729FC9EEC00F829C2 /* Score_wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8E29FC9EEC00F829C2 /* Score_wrong.wav */; };
+		5E89AE9829FC9EEC00F829C2 /* Sol.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE8F29FC9EEC00F829C2 /* Sol.wav */; };
+		5E89AE9929FC9EEC00F829C2 /* Score_right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE9029FC9EEC00F829C2 /* Score_right.wav */; };
+		5E89AE9A29FC9EEC00F829C2 /* Mi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE9129FC9EEC00F829C2 /* Mi.wav */; };
+		5E89AE9B29FC9EEC00F829C2 /* Si.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE9229FC9EEC00F829C2 /* Si.wav */; };
+		5E89AE9F29FCA20300F829C2 /* Do-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E89AE9E29FCA20300F829C2 /* Do-2.png */; };
+		5EA97CE829FE388A001707DF /* LevelThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA97CE729FE388A001707DF /* LevelThree.swift */; };
+		5EA97CEA29FE39F9001707DF /* Do#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CE929FE39F9001707DF /* Do#.wav */; };
+		5EA97CEC29FE39FF001707DF /* Fa#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CEB29FE39FF001707DF /* Fa#.wav */; };
+		5EA97CEE29FE3A06001707DF /* La#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CED29FE3A06001707DF /* La#.wav */; };
+		5EA97CF029FE3A0C001707DF /* Re#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CEF29FE3A0C001707DF /* Re#.wav */; };
+		5EA97CF229FE3A12001707DF /* Sol#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF129FE3A12001707DF /* Sol#.wav */; };
+		5EA97CFF29FE3A20001707DF /* La-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF329FE3A20001707DF /* La-2.wav */; };
+		5EA97D0029FE3A20001707DF /* Si-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF429FE3A20001707DF /* Si-2.wav */; };
+		5EA97D0129FE3A20001707DF /* Re#-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF529FE3A20001707DF /* Re#-2.wav */; };
+		5EA97D0229FE3A20001707DF /* La#-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF629FE3A20001707DF /* La#-2.wav */; };
+		5EA97D0329FE3A20001707DF /* Do#-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF729FE3A20001707DF /* Do#-2.wav */; };
+		5EA97D0429FE3A20001707DF /* Fa-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF829FE3A20001707DF /* Fa-2.wav */; };
+		5EA97D0529FE3A20001707DF /* Do-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CF929FE3A20001707DF /* Do-2.wav */; };
+		5EA97D0629FE3A20001707DF /* Mi-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CFA29FE3A20001707DF /* Mi-2.wav */; };
+		5EA97D0729FE3A20001707DF /* Sol-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CFB29FE3A20001707DF /* Sol-2.wav */; };
+		5EA97D0829FE3A20001707DF /* Fa#-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CFC29FE3A20001707DF /* Fa#-2.wav */; };
+		5EA97D0929FE3A20001707DF /* Re-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CFD29FE3A20001707DF /* Re-2.wav */; };
+		5EA97D0A29FE3A20001707DF /* Sol#-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EA97CFE29FE3A20001707DF /* Sol#-2.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E62E02D2A04235700D9A93B /* Mi-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mi-4.wav"; sourceTree = "<group>"; };
+		5E62E02E2A04235700D9A93B /* Fa-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fa-4.wav"; sourceTree = "<group>"; };
+		5E62E02F2A04235700D9A93B /* Re-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Re-4.wav"; sourceTree = "<group>"; };
+		5E62E0302A04235700D9A93B /* Sol-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sol-4.wav"; sourceTree = "<group>"; };
+		5E62E0312A04235700D9A93B /* Si-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Si-4.wav"; sourceTree = "<group>"; };
+		5E62E0322A04235700D9A93B /* La-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "La-4.wav"; sourceTree = "<group>"; };
+		5E62E0332A04235700D9A93B /* Fa#-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fa#-4.wav"; sourceTree = "<group>"; };
+		5E62E0342A04235700D9A93B /* Do-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Do-4.wav"; sourceTree = "<group>"; };
+		5E62E0352A04235700D9A93B /* Sol#-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sol#-4.wav"; sourceTree = "<group>"; };
+		5E62E0362A04235700D9A93B /* La#-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "La#-4.wav"; sourceTree = "<group>"; };
+		5E62E0372A04235700D9A93B /* Re#-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Re#-4.wav"; sourceTree = "<group>"; };
+		5E62E0382A04235700D9A93B /* Do#-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Do#-4.wav"; sourceTree = "<group>"; };
+		5E89AE7129FC9A3B00F829C2 /* Guess the note beta 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the note beta 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E89AE7429FC9A3B00F829C2 /* Guess_the_note_beta_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_note_beta_1App.swift; sourceTree = "<group>"; };
+		5E89AE7629FC9A3B00F829C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E89AE7829FC9A3C00F829C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E89AE7A29FC9A3C00F829C2 /* Guess_the_note_beta_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Guess_the_note_beta_1.entitlements; sourceTree = "<group>"; };
+		5E89AE7C29FC9A3C00F829C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E89AE8329FC9E2C00F829C2 /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
+		5E89AE8529FC9E5C00F829C2 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
+		5E89AE8729FC9EA500F829C2 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		5E89AE8A29FC9EEC00F829C2 /* Re.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Re.wav; sourceTree = "<group>"; };
+		5E89AE8B29FC9EEC00F829C2 /* Fa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fa.wav; sourceTree = "<group>"; };
+		5E89AE8C29FC9EEC00F829C2 /* Do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Do.wav; sourceTree = "<group>"; };
+		5E89AE8D29FC9EEC00F829C2 /* La.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = La.wav; sourceTree = "<group>"; };
+		5E89AE8E29FC9EEC00F829C2 /* Score_wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Score_wrong.wav; sourceTree = "<group>"; };
+		5E89AE8F29FC9EEC00F829C2 /* Sol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sol.wav; sourceTree = "<group>"; };
+		5E89AE9029FC9EEC00F829C2 /* Score_right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Score_right.wav; sourceTree = "<group>"; };
+		5E89AE9129FC9EEC00F829C2 /* Mi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mi.wav; sourceTree = "<group>"; };
+		5E89AE9229FC9EEC00F829C2 /* Si.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Si.wav; sourceTree = "<group>"; };
+		5E89AE9E29FCA20300F829C2 /* Do-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Do-2.png"; sourceTree = "<group>"; };
+		5EA97CE729FE388A001707DF /* LevelThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelThree.swift; sourceTree = "<group>"; };
+		5EA97CE929FE39F9001707DF /* Do#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Do#.wav"; sourceTree = "<group>"; };
+		5EA97CEB29FE39FF001707DF /* Fa#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fa#.wav"; sourceTree = "<group>"; };
+		5EA97CED29FE3A06001707DF /* La#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "La#.wav"; sourceTree = "<group>"; };
+		5EA97CEF29FE3A0C001707DF /* Re#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Re#.wav"; sourceTree = "<group>"; };
+		5EA97CF129FE3A12001707DF /* Sol#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sol#.wav"; sourceTree = "<group>"; };
+		5EA97CF329FE3A20001707DF /* La-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "La-2.wav"; sourceTree = "<group>"; };
+		5EA97CF429FE3A20001707DF /* Si-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Si-2.wav"; sourceTree = "<group>"; };
+		5EA97CF529FE3A20001707DF /* Re#-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Re#-2.wav"; sourceTree = "<group>"; };
+		5EA97CF629FE3A20001707DF /* La#-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "La#-2.wav"; sourceTree = "<group>"; };
+		5EA97CF729FE3A20001707DF /* Do#-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Do#-2.wav"; sourceTree = "<group>"; };
+		5EA97CF829FE3A20001707DF /* Fa-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fa-2.wav"; sourceTree = "<group>"; };
+		5EA97CF929FE3A20001707DF /* Do-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Do-2.wav"; sourceTree = "<group>"; };
+		5EA97CFA29FE3A20001707DF /* Mi-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mi-2.wav"; sourceTree = "<group>"; };
+		5EA97CFB29FE3A20001707DF /* Sol-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sol-2.wav"; sourceTree = "<group>"; };
+		5EA97CFC29FE3A20001707DF /* Fa#-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fa#-2.wav"; sourceTree = "<group>"; };
+		5EA97CFD29FE3A20001707DF /* Re-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Re-2.wav"; sourceTree = "<group>"; };
+		5EA97CFE29FE3A20001707DF /* Sol#-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sol#-2.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E89AE6E29FC9A3B00F829C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E62E02C2A04235700D9A93B /* Notas-4 */ = {
+			isa = PBXGroup;
+			children = (
+				5E62E02D2A04235700D9A93B /* Mi-4.wav */,
+				5E62E02E2A04235700D9A93B /* Fa-4.wav */,
+				5E62E02F2A04235700D9A93B /* Re-4.wav */,
+				5E62E0302A04235700D9A93B /* Sol-4.wav */,
+				5E62E0312A04235700D9A93B /* Si-4.wav */,
+				5E62E0322A04235700D9A93B /* La-4.wav */,
+				5E62E0332A04235700D9A93B /* Fa#-4.wav */,
+				5E62E0342A04235700D9A93B /* Do-4.wav */,
+				5E62E0352A04235700D9A93B /* Sol#-4.wav */,
+				5E62E0362A04235700D9A93B /* La#-4.wav */,
+				5E62E0372A04235700D9A93B /* Re#-4.wav */,
+				5E62E0382A04235700D9A93B /* Do#-4.wav */,
+			);
+			path = "Notas-4";
+			sourceTree = "<group>";
+		};
+		5E89AE6829FC9A3B00F829C2 = {
+			isa = PBXGroup;
+			children = (
+				5E89AE7329FC9A3B00F829C2 /* Guess the note beta 1 */,
+				5E89AE7229FC9A3B00F829C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E89AE7229FC9A3B00F829C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E89AE7129FC9A3B00F829C2 /* Guess the note beta 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E89AE7329FC9A3B00F829C2 /* Guess the note beta 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5E89AE7429FC9A3B00F829C2 /* Guess_the_note_beta_1App.swift */,
+				5E89AE7629FC9A3B00F829C2 /* ContentView.swift */,
+				5EA97CE729FE388A001707DF /* LevelThree.swift */,
+				5E89AE8529FC9E5C00F829C2 /* LevelTwo.swift */,
+				5E89AE8329FC9E2C00F829C2 /* LevelOne.swift */,
+				5E89AE8729FC9EA500F829C2 /* AudioPlayer.swift */,
+				5E89AE9E29FCA20300F829C2 /* Do-2.png */,
+				5E89AE7829FC9A3C00F829C2 /* Assets.xcassets */,
+				5E89AE7A29FC9A3C00F829C2 /* Guess_the_note_beta_1.entitlements */,
+				5E89AE8929FC9EEC00F829C2 /* Wav notas */,
+				5E89AE7B29FC9A3C00F829C2 /* Preview Content */,
+			);
+			path = "Guess the note beta 1";
+			sourceTree = "<group>";
+		};
+		5E89AE7B29FC9A3C00F829C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E89AE7C29FC9A3C00F829C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E89AE8929FC9EEC00F829C2 /* Wav notas */ = {
+			isa = PBXGroup;
+			children = (
+				5E62E02C2A04235700D9A93B /* Notas-4 */,
+				5E89AE8A29FC9EEC00F829C2 /* Re.wav */,
+				5EA97CE929FE39F9001707DF /* Do#.wav */,
+				5E89AE8B29FC9EEC00F829C2 /* Fa.wav */,
+				5EA97CEF29FE3A0C001707DF /* Re#.wav */,
+				5EA97CF129FE3A12001707DF /* Sol#.wav */,
+				5EA97CEB29FE39FF001707DF /* Fa#.wav */,
+				5EA97CED29FE3A06001707DF /* La#.wav */,
+				5E89AE8C29FC9EEC00F829C2 /* Do.wav */,
+				5E89AE8D29FC9EEC00F829C2 /* La.wav */,
+				5E89AE8E29FC9EEC00F829C2 /* Score_wrong.wav */,
+				5E89AE8F29FC9EEC00F829C2 /* Sol.wav */,
+				5E89AE9029FC9EEC00F829C2 /* Score_right.wav */,
+				5E89AE9129FC9EEC00F829C2 /* Mi.wav */,
+				5E89AE9229FC9EEC00F829C2 /* Si.wav */,
+				5EA97CF929FE3A20001707DF /* Do-2.wav */,
+				5EA97CF729FE3A20001707DF /* Do#-2.wav */,
+				5EA97CF829FE3A20001707DF /* Fa-2.wav */,
+				5EA97CFC29FE3A20001707DF /* Fa#-2.wav */,
+				5EA97CF329FE3A20001707DF /* La-2.wav */,
+				5EA97CF629FE3A20001707DF /* La#-2.wav */,
+				5EA97CFA29FE3A20001707DF /* Mi-2.wav */,
+				5EA97CFD29FE3A20001707DF /* Re-2.wav */,
+				5EA97CF529FE3A20001707DF /* Re#-2.wav */,
+				5EA97CF429FE3A20001707DF /* Si-2.wav */,
+				5EA97CFB29FE3A20001707DF /* Sol-2.wav */,
+				5EA97CFE29FE3A20001707DF /* Sol#-2.wav */,
+			);
+			path = "Wav notas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E89AE7029FC9A3B00F829C2 /* Guess the note beta 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E89AE8029FC9A3C00F829C2 /* Build configuration list for PBXNativeTarget "Guess the note beta 1" */;
+			buildPhases = (
+				5E89AE6D29FC9A3B00F829C2 /* Sources */,
+				5E89AE6E29FC9A3B00F829C2 /* Frameworks */,
+				5E89AE6F29FC9A3B00F829C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess the note beta 1";
+			productName = "Guess the note beta 1";
+			productReference = 5E89AE7129FC9A3B00F829C2 /* Guess the note beta 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E89AE6929FC9A3B00F829C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5E89AE7029FC9A3B00F829C2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E89AE6C29FC9A3B00F829C2 /* Build configuration list for PBXProject "Guess the note beta 1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E89AE6829FC9A3B00F829C2;
+			productRefGroup = 5E89AE7229FC9A3B00F829C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E89AE7029FC9A3B00F829C2 /* Guess the note beta 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E89AE6F29FC9A3B00F829C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA97D0A29FE3A20001707DF /* Sol#-2.wav in Resources */,
+				5E62E0392A04235700D9A93B /* Mi-4.wav in Resources */,
+				5E62E0402A04235700D9A93B /* Do-4.wav in Resources */,
+				5E89AE9A29FC9EEC00F829C2 /* Mi.wav in Resources */,
+				5E89AE9529FC9EEC00F829C2 /* Do.wav in Resources */,
+				5E89AE9929FC9EEC00F829C2 /* Score_right.wav in Resources */,
+				5EA97CEC29FE39FF001707DF /* Fa#.wav in Resources */,
+				5EA97D0429FE3A20001707DF /* Fa-2.wav in Resources */,
+				5EA97CFF29FE3A20001707DF /* La-2.wav in Resources */,
+				5E89AE9829FC9EEC00F829C2 /* Sol.wav in Resources */,
+				5EA97D0229FE3A20001707DF /* La#-2.wav in Resources */,
+				5E62E03A2A04235700D9A93B /* Fa-4.wav in Resources */,
+				5EA97D0729FE3A20001707DF /* Sol-2.wav in Resources */,
+				5EA97D0129FE3A20001707DF /* Re#-2.wav in Resources */,
+				5E62E0412A04235700D9A93B /* Sol#-4.wav in Resources */,
+				5EA97D0829FE3A20001707DF /* Fa#-2.wav in Resources */,
+				5E62E0442A04235700D9A93B /* Do#-4.wav in Resources */,
+				5E62E03C2A04235700D9A93B /* Sol-4.wav in Resources */,
+				5E89AE7D29FC9A3C00F829C2 /* Preview Assets.xcassets in Resources */,
+				5EA97CEE29FE3A06001707DF /* La#.wav in Resources */,
+				5EA97D0629FE3A20001707DF /* Mi-2.wav in Resources */,
+				5EA97D0029FE3A20001707DF /* Si-2.wav in Resources */,
+				5E89AE9429FC9EEC00F829C2 /* Fa.wav in Resources */,
+				5E89AE9729FC9EEC00F829C2 /* Score_wrong.wav in Resources */,
+				5E62E03E2A04235700D9A93B /* La-4.wav in Resources */,
+				5E62E03D2A04235700D9A93B /* Si-4.wav in Resources */,
+				5E89AE9329FC9EEC00F829C2 /* Re.wav in Resources */,
+				5EA97D0929FE3A20001707DF /* Re-2.wav in Resources */,
+				5EA97D0329FE3A20001707DF /* Do#-2.wav in Resources */,
+				5E89AE7929FC9A3C00F829C2 /* Assets.xcassets in Resources */,
+				5E89AE9F29FCA20300F829C2 /* Do-2.png in Resources */,
+				5E62E03F2A04235700D9A93B /* Fa#-4.wav in Resources */,
+				5EA97CEA29FE39F9001707DF /* Do#.wav in Resources */,
+				5E62E0432A04235700D9A93B /* Re#-4.wav in Resources */,
+				5EA97CF029FE3A0C001707DF /* Re#.wav in Resources */,
+				5E62E0422A04235700D9A93B /* La#-4.wav in Resources */,
+				5E89AE9B29FC9EEC00F829C2 /* Si.wav in Resources */,
+				5E62E03B2A04235700D9A93B /* Re-4.wav in Resources */,
+				5E89AE9629FC9EEC00F829C2 /* La.wav in Resources */,
+				5EA97D0529FE3A20001707DF /* Do-2.wav in Resources */,
+				5EA97CF229FE3A12001707DF /* Sol#.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E89AE6D29FC9A3B00F829C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E89AE7729FC9A3B00F829C2 /* ContentView.swift in Sources */,
+				5E89AE7529FC9A3B00F829C2 /* Guess_the_note_beta_1App.swift in Sources */,
+				5E89AE8829FC9EA500F829C2 /* AudioPlayer.swift in Sources */,
+				5EA97CE829FE388A001707DF /* LevelThree.swift in Sources */,
+				5E89AE8429FC9E2C00F829C2 /* LevelOne.swift in Sources */,
+				5E89AE8629FC9E5C00F829C2 /* LevelTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E89AE7E29FC9A3C00F829C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E89AE7F29FC9A3C00F829C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E89AE8129FC9A3C00F829C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Guess the note beta 1/Guess_the_note_beta_1.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guess the note beta 1/Preview Content\"";
+				DEVELOPMENT_TEAM = BDS9W58AMT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the note";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EMC.Apps.Guess-the-note-beta-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E89AE8229FC9A3C00F829C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Guess the note beta 1/Guess_the_note_beta_1.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guess the note beta 1/Preview Content\"";
+				DEVELOPMENT_TEAM = BDS9W58AMT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the note";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EMC.Apps.Guess-the-note-beta-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E89AE6C29FC9A3B00F829C2 /* Build configuration list for PBXProject "Guess the note beta 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E89AE7E29FC9A3C00F829C2 /* Debug */,
+				5E89AE7F29FC9A3C00F829C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E89AE8029FC9A3C00F829C2 /* Build configuration list for PBXNativeTarget "Guess the note beta 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E89AE8129FC9A3C00F829C2 /* Debug */,
+				5E89AE8229FC9A3C00F829C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E89AE6929FC9A3B00F829C2 /* Project object */;
+}
